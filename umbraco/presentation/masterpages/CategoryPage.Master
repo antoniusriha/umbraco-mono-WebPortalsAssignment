@@ -1,0 +1,10 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.Master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="cp_content" runat="server">
+  <umbraco:Item field="categoryName" runat="server" />
+  <umbraco:Macro Alias="umb2ndLevelNavigation" runat="server"></umbraco:Macro>
+</asp:content>
+
+<asp:content ContentPlaceHolderId="cp_footer" runat="server">
+  <umbraco:Item field="createDate" runat="server" />
+</asp:content>
