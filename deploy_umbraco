@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Make sure only root can run our script
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
+# stop apache
+service apache2 stop
+
+# reset database
+#echo 'DROP DATABASE mycms; CREATE DATABASE mycms; grant all privileges on mycms.* to antonius@localhost; grant all privileges on mycms.* to "www-data"@localhost;' | mysql -p
+
+# clean target, copy zip and unpack
+rm -rf /srv/www/mycms/*
+cp -r umbraco/presentation/* /srv/www/mycms/
+
+# set owner
+chown -R www-data:www-data /srv/www/mycms
+
+# start apache
+service apache2 start
+
+exit 0
