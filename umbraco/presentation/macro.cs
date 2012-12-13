@@ -154,21 +154,21 @@ namespace umbraco
         public static macro GetMacro(string alias)
         {
             // FlorisRobbemont: issue #27610 -> Presentation macro not supposed to be cached.
-            return new macro(alias);
+//            return new macro(alias);
 
-            //return cms.businesslogic.cache.Cache.GetCacheItem(GetCacheKey(alias), macroRuntimeCacheSyncLock,
-            //              TimeSpan.FromMinutes(60),
-            //              delegate
-            //              {
-            //                  try
-            //                  {
-            //                      return new macro(alias);
-            //                  }
-            //                  catch
-            //                  {
-            //                      return null;
-            //                  }
-            //              });
+            return cms.businesslogic.cache.Cache.GetCacheItem(GetCacheKey(alias), macroRuntimeCacheSyncLock,
+                          TimeSpan.FromMinutes(60),
+                          delegate
+                          {
+                              try
+                              {
+                                  return new macro(alias);
+                              }
+                              catch
+                              {
+                                  return null;
+                              }
+                          });
 
 
 

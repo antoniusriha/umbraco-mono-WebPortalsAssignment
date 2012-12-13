@@ -444,7 +444,7 @@ namespace umbraco.controls
             }
 
             // RegExp Validation
-            if (p.PropertyType.ValidationRegExp != null && p.PropertyType.ValidationRegExp != "")
+            if (!string.IsNullOrWhiteSpace (p.PropertyType.ValidationRegExp))
             {
                 try
                 {
