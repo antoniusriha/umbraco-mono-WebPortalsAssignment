@@ -1,0 +1,3 @@
+[submodule "CmsStoreReviewControl"]
+	path = CmsStoreReviewControl
+	url = linode:Projects/CmsStoreReviewControl
