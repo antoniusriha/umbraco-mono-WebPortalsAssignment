@@ -12,6 +12,8 @@ body{text-align: left; padding: 0px; margin: 0px; background: #F6F7F9;}
 
 #top ul li.current a{font-weight: bold}
 
+#top .loginStatus {float: right}
+
 #body{margin: auto; padding: 2em 0em 2em 0em;}
 #footer{padding-top: 5px; clear: both;}
 

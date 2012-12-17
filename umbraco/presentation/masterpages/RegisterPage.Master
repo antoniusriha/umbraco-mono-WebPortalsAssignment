@@ -1,0 +1,5 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.Master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="cp_content" runat="server">
+  <umbraco:Macro Alias="RegisterControl" runat="server"></umbraco:Macro>
+</asp:content>
