@@ -16,7 +16,11 @@
   </div>
   <hr/>
   <h3>Reviews</h3>
+<<<<<<< HEAD
   <umbraco:Macro LoginUrl="~/cms-store/login" Alias="ReviewControl" runat="server"></umbraco:Macro>
+=======
+  <umbraco:Macro LoginUrl="~/simple-website/login" Alias="ReviewControl" runat="server"></umbraco:Macro>
+>>>>>>> Add CmsStoreControls for displaying images
 </asp:content>
 
 <asp:content ContentPlaceHolderId="cp_footer" runat="server">
