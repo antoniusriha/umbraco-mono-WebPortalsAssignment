@@ -36,3 +36,4 @@
         </div>
     </LayoutTemplate>
 </asp:Login>
+<asp:HyperLink id="RegisterLink" Text="Not yet registered?" runat="server" />
