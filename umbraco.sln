@@ -124,6 +124,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsStoreReviewControl", "Cm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewTableSetup", "CmsStoreReviewControl\ReviewTableSetup\ReviewTableSetup.csproj", "{D68BB418-8801-4209-825B-960DB25F2BB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembershipControls", "MembershipControls\MembershipControls.csproj", "{E841D88C-4A50-4D07-A628-1CEC66D0192D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -200,6 +202,10 @@ Global
 		{E469A9CE-1BEC-423F-AC44-713CD72457EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E469A9CE-1BEC-423F-AC44-713CD72457EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E469A9CE-1BEC-423F-AC44-713CD72457EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E841D88C-4A50-4D07-A628-1CEC66D0192D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E841D88C-4A50-4D07-A628-1CEC66D0192D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E841D88C-4A50-4D07-A628-1CEC66D0192D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E841D88C-4A50-4D07-A628-1CEC66D0192D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8ECDB8B-BF44-462C-B6DA-22421B3EC4D7} = {F0242771-6DE6-4E03-BD3A-7B79BA79105B}
