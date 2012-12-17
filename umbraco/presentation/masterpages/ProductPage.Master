@@ -1,5 +1,5 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/umbMaster.Master" AutoEventWireup="true" %>
-
+<%@ Import namespace="umbraco" %>
 <asp:content ContentPlaceHolderId="cp_content" runat="server">
   <h3>
     <umbraco:Item field="productName" runat="server" />
@@ -12,11 +12,10 @@
     <umbraco:Item field="productDescription" runat="server" />
   </p>
   <div>
-    <umbraco:Item field="productImage" runat="server" />
+    <umbraco:Macro ImageContentId="[#productImage]" Alias="CmsStoreImageControl" runat="server" />
   </div>
   <hr/>
   <h3>Reviews</h3>
-  <umbraco:Item field="pageID" runat="server" />
   <umbraco:Macro LoginUrl="~/simple-website/login" Alias="ReviewControl" runat="server"></umbraco:Macro>
 </asp:content>
 

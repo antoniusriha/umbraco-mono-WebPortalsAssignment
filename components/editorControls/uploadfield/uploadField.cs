@@ -343,7 +343,7 @@ namespace umbraco.editorControls
             ImageCodecInfo codec = null;
             for (int i = 0; i < codecs.Length; i++)
             {
-                if (codecs[i].MimeType.Equals("image/jpeg"))
+                if (codecs[i].MimeType.Equals("image/png"))
                     codec = codecs[i];
             }
 

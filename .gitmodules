@@ -4,3 +4,6 @@
 [submodule "MembershipControls"]
 	path = MembershipControls
 	url = linode:Projects/MembershipControls
+[submodule "CmsStoreControls"]
+	path = CmsStoreControls
+	url = linode:Projects/CmsStoreControls
