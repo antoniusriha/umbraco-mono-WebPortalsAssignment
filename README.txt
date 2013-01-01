@@ -18,7 +18,8 @@ Anmerkungen zur Umsetzung:
 	wurde eine eigens kompilierte tip-of-master Version vom 13. od. 14.12.2012 verwendet.
 	Zusätzlich mussten einige weitere mono-bezogene Pakete kompiliert werden (alles trunk-
 	Versionen vom 13. od. 14.12.2012): gio-sharp, gtk-sharp, libgdiplus, mod_mono, mono-addins,
-	mono-tools, xsp.
+	mono-tools, xsp. Mono und die aufgezählten Komponenten wurden in einem Prallel
+	Environment (http://www.mono-project.com/Parallel_Mono_Environments) installiert.
 	Umbraco-mono wurde von https://github.com/m57j75/umbraco-mono in der Version des tags
 	"4.7.2-mono-beta-1" bezogen, der momentan stabilsten Version davon. Ein paar kleinere
 	Anpassungen des Source Codes waren nötig.
