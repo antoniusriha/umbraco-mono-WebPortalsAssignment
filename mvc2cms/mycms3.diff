@@ -1,0 +1,76 @@
+--- /home/antonius/backupdb0.sql
++++ /home/antonius/mycms04.sql
+ 
+ --
+@@ -43,7 +43,7 @@
+ INSERT INTO `CMSCONTENT` VALUES 
+ (1,1050,1047),(5,1058,1056),(6,1059,1057),(7,1060,1057),(8,1061,1056),(9,1062,10
+ 57),(10,1063,1057),(11,1072,1070),(12,1073,1071),(13,1074,1066),(14,1075,1032),(
+-15,1076,1032),(16,1077,1032),(17,1078,1032);
++15,1076,1032),(16,1077,1032),(17,1078,1032),(18,1079,1056);
+ /*!40000 ALTER TABLE `CMSCONTENT` ENABLE KEYS */;
+ UNLOCK TABLES;
+ 
+ --
+@@ -243,7 +243,8 @@
+ 22:46:24'),(109,1072,'d37b46dd-d237-4ca1-973d-7a0e31514b4c','2012-12-29 
+ 22:46:31'),(110,1050,'5a809261-ac3f-4fb3-882b-9eeb9ea805b5','2012-12-29 
+ 22:46:36'),(111,1050,'022474cd-ecae-43cb-a9f3-d511581a7651','2012-12-29 
+-22:48:15');
++22:48:15'),(112,1079,'26fa8833-97fd-4deb-b546-e3ca72bb1fd7','2013-01-02 
++10:22:05');
+ /*!40000 ALTER TABLE `CMSCONTENTVERSION` ENABLE KEYS */;
+ UNLOCK TABLES;
+ 
+@@ -594,8 +595,10 @@
+ hai',NULL,NULL,'2012-12-17 
+ 14:28:51',1055,NULL,'\0'),(1062,'\0',0,'2671f9bb-f780-4bfc-8980-d868b6dca091','A
+ niseed Syrup',NULL,NULL,'2012-12-14 14:07:21',1055,NULL,'\0'),
++(1079,'\0',0,'26fa8833-97fd-4deb-b546-e3ca72bb1fd7','AgaPu',NULL,NULL,'2013-01-02 10:22:17',1054,NULL,''),
+ (1050,'\0',0,'28331716-14bd-4126-8cd8-20d9c80ae24b','CMS Store',NULL,NULL,'2012-12-29 
+ 22:27:33',1044,NULL,'\0'),(1050,'\0',0,'297b1fc9-df77-4e9c-8d14-db9710ee6301','C
+ MS Store',NULL,NULL,'2012-12-29 
+ 22:48:15',1044,NULL,'\0'),(1059,'\0',0,'2b1ea586-b4c3-4210-9578-e052a2744f77','C
+ ...
+ /*!40000 ALTER TABLE `CMSDOCUMENT` ENABLE KEYS */;
+ 
+ --
+@@ -2179,7 +2182,13 @@
+ template=\"1069\" sortOrder=\"4\" createDate=\"2012-12-17T14:28:28\" 
+ updateDate=\"2012-12-17T14:28:28\" nodeName=\"Register\" urlName=\"register\" 
+ writerName=\"admin\" creatorName=\"admin\" path=\"-1,1050,1073\" isDoc=\"\" 
+-/>');
++/>'),(1079,'26fa8833-97fd-4deb-b546-e3ca72bb1fd7','2013-01-02 
++11:22:17','<CategoryPage id=\"1079\" parentID=\"1050\" level=\"2\" 
++writerID=\"0\" creatorID=\"0\" nodeType=\"1056\" template=\"1054\" 
++sortOrder=\"0\" createDate=\"2013-01-02T11:22:04\" 
++updateDate=\"2013-01-02T11:22:05\" nodeName=\"AgaPu\" urlName=\"agapu\" 
++writerName=\"admin\" creatorName=\"admin\" path=\"-1,1050,1079\" 
++isDoc=\"\"><categoryName>AgaPu4443</categoryName></CategoryPage>');
+ /*!40000 ALTER TABLE `CMSPREVIEWXML` ENABLE KEYS */;
+ UNLOCK TABLES;
+ 
+ --
+@@ -3435,7 +3444,9 @@
+ L,NULL,'CMS 
+ Store',NULL),(315,1050,'022474cd-ecae-43cb-a9f3-d511581a7651',30,NULL,NULL,NULL,
+ '									Welcome 
+-to the CMS Store!');
++to the CMS 
++Store!'),
+(316,1079,'26fa8833-97fd-4deb-b546-e3ca72bb1fd7',33,NULL,NULL,'AgaPu4443',NULL);
+ /*!40000 ALTER TABLE `CMSPROPERTYDATA` ENABLE KEYS */;
+ UNLOCK TABLES;
+ 
+ --
+@@ -10214,7 +10247,9 @@
+ 23:28:32'),(1077,'\0',-1,0,1,'-1,1077',51,'82601ced-17e2-4c69-91fb-d3139fe13807'
+ ,'MacLeopard','b796f64c-1f99-4ffb-b886-4bf4bc011a9c','2012-12-17 
+ 23:30:05'),(1078,'\0',-1,0,1,'-1,1078',52,'359cd554-cfea-40eb-b79f-848c291cec12'
+-,'Commodore','b796f64c-1f99-4ffb-b886-4bf4bc011a9c','2012-12-17 23:31:20');
++,'Commodore','b796f64c-1f99-4ffb-b886-4bf4bc011a9c','2012-12-17 
++23:31:20'),
+(1079,'\0',1050,0,2,'-1,1050,1079',5,'210d96c2-e432-403b-8d12-241840a3c1fa','AgaPu','c66ba18e-eaf3-4cff-8a22-41b16d66a972','2013-01-02 10:22:04');
+ /*!40000 ALTER TABLE `UMBRACONODE` ENABLE KEYS */;
+ UNLOCK TABLES;
+
