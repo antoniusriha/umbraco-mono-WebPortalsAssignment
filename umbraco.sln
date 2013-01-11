@@ -128,6 +128,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembershipControls", "Membe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsStoreControls", "CmsStoreControls\CmsStoreControls.csproj", "{5EF6A38A-0123-4E97-87C4-8496402BFF28}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mvc2cms", "mvc2cms", "{3932975D-BEE4-4545-9317-92558A94DE32}"
+	ProjectSection(SolutionItems) = preProject
+		mvc2cms\backupdb.sql = mvc2cms\backupdb.sql
+		mvc2cms\mvc2cms.sh = mvc2cms\mvc2cms.sh
+		mvc2cms\mycms.diff = mvc2cms\mycms.diff
+		mvc2cms\mycms2.diff = mvc2cms\mycms2.diff
+		mvc2cms\mycms3.diff = mvc2cms\mycms3.diff
+		mvc2cms\resetdb.sh = mvc2cms\resetdb.sh
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
