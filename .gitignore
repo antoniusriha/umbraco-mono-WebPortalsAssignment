@@ -26,3 +26,8 @@ umbraco/presentation/~/
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Web portals assignment #
+##########################
+!/CmsStoreReviewControl/MySqlConnector/MySql.Data.dll
+
